@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* USER */
+
+@import url(navbar_user.css);
+@import url(home.css);
+@import url(footer.css);
+@import url(sobre_nos.css);
+@import url(form.css);
+@import url(area_user.css);
+@import url(card_area_user.css);
+@import url(modal.css);
+
+
+/* ADM */
+@import url(navbar_adm.css);
+@import url(listar_adm.css);
+@import url(teste.css);
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+*:root{
+    --color-text: #3e3e3e;
+    --color-azul-marinho:  #161680;
+    --color-laranja: #ff3131;
+    --swiper-pagination-color: var(--color-text);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.main_user{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+
+}
